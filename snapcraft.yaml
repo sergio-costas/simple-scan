@@ -52,7 +52,7 @@ parts:
 # ext: updatesnap
     source: https://gitlab.com/sane-project/backends.git
     source-type: git
-    source-tag: '1.3.1'
+    source-tag: '1.4.0'
     source-depth: 1
     plugin: autotools
     autotools-configure-parameters:
@@ -90,7 +90,7 @@ parts:
     after: [libsane]
     source: https://github.com/alexpevzner/sane-airscan
     source-type: git
-    source-tag: '0.99.34'
+    source-tag: '0.99.37'
     source-depth: 1
     plugin: make
     make-parameters:
@@ -110,7 +110,7 @@ parts:
     after: [libsane]
     source: https://gitlab.gnome.org/GNOME/simple-scan.git
     source-type: git
-    source-tag: '48.1'
+    source-tag: '49.1'
     source-depth: 1
     plugin: meson
     parse-info: [usr/share/metainfo/org.gnome.SimpleScan.appdata.xml]
